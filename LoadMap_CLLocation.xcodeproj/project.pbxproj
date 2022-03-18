@@ -11,6 +11,8 @@
 		7548E58C27E44BD80070AE76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548E58B27E44BD80070AE76 /* ContentView.swift */; };
 		7548E58E27E44BDA0070AE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7548E58D27E44BDA0070AE76 /* Assets.xcassets */; };
 		7548E59127E44BDA0070AE76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7548E59027E44BDA0070AE76 /* Preview Assets.xcassets */; };
+		7548E59827E44C2C0070AE76 /* CLLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548E59727E44C2C0070AE76 /* CLLocation.swift */; };
+		7548E59C27E470EA0070AE76 /* CotentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7548E59B27E470EA0070AE76 /* CotentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7548E58B27E44BD80070AE76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7548E58D27E44BDA0070AE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7548E59027E44BDA0070AE76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7548E59727E44C2C0070AE76 /* CLLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocation.swift; sourceTree = "<group>"; };
+		7548E59B27E470EA0070AE76 /* CotentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CotentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				7548E58927E44BD80070AE76 /* LoadMap_CLLocationApp.swift */,
 				7548E58B27E44BD80070AE76 /* ContentView.swift */,
+				7548E59727E44C2C0070AE76 /* CLLocation.swift */,
 				7548E58D27E44BDA0070AE76 /* Assets.xcassets */,
 				7548E58F27E44BDA0070AE76 /* Preview Content */,
+				7548E59B27E470EA0070AE76 /* CotentViewModel.swift */,
 			);
 			path = LoadMap_CLLocation;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7548E59827E44C2C0070AE76 /* CLLocation.swift in Sources */,
+				7548E59C27E470EA0070AE76 /* CotentViewModel.swift in Sources */,
 				7548E58C27E44BD80070AE76 /* ContentView.swift in Sources */,
 				7548E58A27E44BD80070AE76 /* LoadMap_CLLocationApp.swift in Sources */,
 			);
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = 7N2TRX73U6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치정보를 가져오는것을 동의하십니까?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +308,7 @@
 				DEVELOPMENT_TEAM = 7N2TRX73U6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치정보를 가져오는것을 동의하십니까?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
